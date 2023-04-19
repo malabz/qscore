@@ -100,7 +100,7 @@ void MSA::FromFASTAFile(FILE *f)
 			}
 		if (InLabel)
 			{
-			if (c == '\r')
+			if (c == '\r' || c == ' ' || c == '\t' || c == ',')
 				continue;
 			if ('\n' == c)
 				{

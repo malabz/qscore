@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 	ParseOptions(argc - 1, argv + 1);
 	if (FlagOpt("version"))
 		{
-		fprintf(stderr, "qscore v3.0\n");
+		fprintf(stderr, "qscore v3.1\n");
 		exit(0);
 		}
 

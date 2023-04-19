@@ -4,9 +4,10 @@ void Usage()
     {
     fprintf(stderr,
 "\n"
-"qscore v2.1\n"
+"qscore v3.1\n"
 "Compare a test alignment with a reference (correct) alignment.\n"
 "Written by Robert C. Edgar. This code is donated to the public domain.\n"
+"Modified by wym6912. Ignore spaces in sequence name.\n"
 "\n"
 "Usage:\n"
 "   qscore -test <testaln> -ref <refaln>\n"
